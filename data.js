@@ -20,14 +20,19 @@ If you think the value of the variable can change, use let.
 
 
 // Declare variables (without value assignment)
+let score;
+let lives;
 
 
-
+var num = 7;
+const ageToVote = 18;
+let x = 5;
+let y = 7;
 
 // Initialize variable (declare AND Assign value simultaneously)
 
 
-
+score = num + 3;
 
 
 // Use Variables
