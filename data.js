@@ -30,29 +30,31 @@ let x = 5;
 let y = 7;
 
 // Initialize variable (declare AND Assign value simultaneously)
-
-
+//**Note: An equal sign is used to assign values to variables 
+//"=" means get the value of
 score = num + 3;
+lives = score + 1;
 
+
+
+/*Arrays: */
+const newEngland = ["New Hampshire", "Vermont", "Maine", "Massachusetts", "Rhode Island", "Connecticut",]
+// index values             0           1           2           3               4                5
+const grades = [91, 100, 88, 95, 75, 98, 100];
+// index values 0   1   2    3   4   5    6
+
+
+let state = newEngland[2];
+let student2 = grades[1];
 
 // Use Variables
 // **Note: An equal sign is used to assign values to variables.
-
-
-
-
-
-
 /* ARRAYS: */
-
-
-
-
-
-
 // The Array object has many methods and properties
-
-
+newEngland.length; 
+newEngland.push("New York");
+newEgland.pop();
+newEngland.indexOf("Rhode Island", 0);
 
 
 
